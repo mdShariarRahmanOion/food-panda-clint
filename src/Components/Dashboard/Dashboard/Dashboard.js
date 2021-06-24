@@ -15,7 +15,7 @@ const Dashboard = () => {
             setSelectDate(date);
         }
         useEffect(() => {
-            fetch('http://localhost:5055/orderByDay',{
+            fetch('https://fast-citadel-24649.herokuapp.com/orderByDay',{
                 method: 'POST',
                 headers: {'content-type':'application/json'},
                 body: JSON.stringify({ date: selectDate, email: loggedInUser.email })

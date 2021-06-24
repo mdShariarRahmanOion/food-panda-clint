@@ -20,7 +20,7 @@ const Admin = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
 
-        fetch('http://localhost:5055/admin', {
+        fetch('https://fast-citadel-24649.herokuapp.com/admin', {
             method: 'POST',
             body: formData
         })

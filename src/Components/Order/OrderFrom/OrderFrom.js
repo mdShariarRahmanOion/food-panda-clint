@@ -23,7 +23,7 @@ const OrderFrom = ( {modalIsOpen, closeModal,orderOn, date }) => {
         data.created = new Date();
 
         // console.log(data);
-        fetch('http://localhost:5055/addOrder', {
+        fetch('https://fast-citadel-24649.herokuapp.com/addOrder', {
            
             // method: 'POST',
             // headers: {'content-type' : 'application/json'},
