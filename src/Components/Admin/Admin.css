@@ -1,0 +1,7 @@
+.backGround{
+    height:500px;
+    position:relative;
+    background-image: url('../../foodImages/BGI.png');
+    background-size:cover;
+    overflow: hidden;
+}

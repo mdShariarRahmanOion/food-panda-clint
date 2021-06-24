@@ -1,0 +1,28 @@
+.footer-area{
+    background-image: url(../../../foodImages/FooterBG.png);
+    background-size: cover;
+}
+
+.footer-area{
+   
+    padding-left: 600px;
+}
+.container{
+    text-align: center;
+}
+/* .copyRight{
+    padding-right: 500px;
+} */
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: #172072;
+    border-radius: 50%;
+    border: 1px solid #172072;
+    padding: 10px;
+}
+.social-media .active-icon{
+    background-color: #172072 ;
+    color:white;
+}
